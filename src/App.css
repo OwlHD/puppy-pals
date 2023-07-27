@@ -40,3 +40,49 @@
 .read-the-docs {
   color: #888;
 }
+
+body {
+  background-color: #FFEAEC;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  width: 200px;
+  height: 300px;
+}
+
+.app {
+  display: flex;
+}
+
+.pupDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.pupCard, .pupName {
+  border: 3px solid;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+}
+
+.pupCard {
+  margin-left: 50px;
+}
+
+.pupName {
+  user-select: none;
+}
+
+.pupName:hover {
+  background-color: #A6F4DC;
+  cursor: pointer;
+}
+
+.pupName:active {
+  background-color: #449DD1;
+}
